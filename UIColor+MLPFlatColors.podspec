@@ -7,7 +7,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author       = { "Eddy Borja" => "eddyborja@gmail.com" }
   s.source       = { :git => "https://github.com/EddyBorja/UIColor-MLPFlatColors.git", :tag => "1.0" }
-  s.platform     = :ios, '5.0'
+  s.ios.deployment_target = '5.0'
+  s.tvos.deployment_target = '9.0'
  
   
   s.source_files = 'UIColor+MLPFlatColors', 'UIColor+MLPFlatColors/**/*.{h,m}'
